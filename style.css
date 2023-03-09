@@ -148,3 +148,8 @@ a{
     font-size: 24px;
     background-color: rgb(227, 224, 224);
 }
+.copyright
+{
+    position:absolute;
+    bottom:0px;
+}
