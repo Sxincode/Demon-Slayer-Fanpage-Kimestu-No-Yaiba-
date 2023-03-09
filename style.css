@@ -1,0 +1,149 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: consolas;
+    min-width: 1000px;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(26, 24, 24);
+    color: white;
+    flex-wrap: wrap;
+ 
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex:1;
+  
+}
+
+.links{
+    display: flex;
+    margin: 1em 1em;
+    flex:1;
+    justify-content: flex-end;
+    font-size: 2em;
+}
+
+.subhead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    flex:auto;
+    gap:16px;
+    /* flex-wrap: wrap;
+*/}
+.logo{
+    width: 120px;
+    height: 120px;
+    display: flex;
+    margin: .5em .5em;
+}
+
+.image{
+    width: 250px;
+    display: flex;
+    height: 250px;
+    object-fit: cover;
+    border-radius:50%;
+}
+
+.button{
+    padding: 1em 2em;
+    background-color: rgb(243, 202, 2);
+    border: none;
+    border-radius: 1em;
+   margin: 1em 2em;
+   font-family: consolas;
+   font-weight: bold;
+   font-size:.5em;
+}
+
+.button:hover{
+    cursor:pointer;
+}
+
+.information{
+    display: flex;
+    gap: 1em;
+    justify-content: space-between;
+  
+    padding:1em;
+    flex-wrap: wrap;
+    text-align: center;
+    font-family: consolas;
+    font-size: 1.2em;
+    background-color: rgb(228, 225, 225);
+}
+.main-img{
+    object-fit: contain;
+    width: 500px;
+    height: auto;
+    object-fit: fill;
+
+}
+
+.quote{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:2em;
+    text-align: left;
+}
+
+ul{
+    list-style: none;
+    font-family: consolas;
+    display: flex;
+    gap: 1em;
+    margin:0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.main-quote{
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    background-color: rgb(142, 139, 139) ;
+    color: rgb(227, 212, 5);
+    flex-direction: column;
+     padding: .5em .5em;
+     font-family: Helvetica;
+}
+
+.signup{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(26, 24, 24);
+    padding: 3em;
+    color: white;
+}
+
+.big{
+    font-size:1.5em;
+    margin-bottom: .5em;
+}
+.git{
+    font-size: 1em;
+}
+
+.footer{
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    background-color: rgb(227, 224, 224);
+}
