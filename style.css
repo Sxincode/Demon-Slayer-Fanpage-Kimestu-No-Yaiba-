@@ -3,7 +3,7 @@ body{
     flex-direction: column;
     margin: 0;
     font-family: consolas;
-    min-width: 100vw;
+    width: 100vw;
     height: 100vh;
 }
 .header{
